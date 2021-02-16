@@ -290,7 +290,7 @@ class DataBase {
     /**
      * Get's the size of the database. This returns a promise.
      * 
-     * @returns {Promise<Number>}
+     * @returns {Number}
      */
     get size() {
         let size = schema.find({}).then(data => {
